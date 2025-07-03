@@ -3,11 +3,11 @@ setInterval(() => {
     .then(data => {
       self.postMessage({
         data
-      });
+      })
     })
     .catch(error => {
       self.postMessage({
         error
-      });
-    });
-}, 1000);
+      })
+    })
+}, 1000)

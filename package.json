@@ -1,7 +1,7 @@
 {
-  "name": "zero",
+  "name": "project-crypto",
   "version": "1.0.0",
-  "description": "A zero project",
+  "description": "Crypto related project for traking the buy/sell operations",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index.js",

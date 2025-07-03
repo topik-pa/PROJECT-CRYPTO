@@ -1,6 +1,6 @@
 const cookieLayer = {
   init: () => {
-    const cookieName = 'zero-project-privacy'
+    const cookieName = 'project-crypto-privacy'
     const cookieDuration = 120
     const cookieLayerWait = 3000
 
