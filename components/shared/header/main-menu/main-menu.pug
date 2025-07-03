@@ -1,0 +1,42 @@
+- 
+  let links = [
+    {
+      id: 'home',
+      name: 'Home',
+      url: '/',
+      class: 'icon-home'
+    },
+    {
+      id: 'users',
+      name: 'Users',
+      url: '/users'
+    },
+    {
+      id: 'form',
+      name: 'Form',
+      url: '/form'
+    },
+    {
+      id: 'plp',
+      name: 'PLP',
+      url: '/plp'
+    },
+    {
+      id: 'contacts',
+      name: 'Contacts',
+      url: '/contacts'
+    }
+  ] 
+span(class="hamburger icon-menu") 
+nav(id="main-menu")
+  span(class="close icon-close")
+  ul
+    each link in links
+      li(class = (id === link.id) ? "active" : "")
+        if link.class
+          span(class=link.class)
+        a(href=link.url, title=link.name) #{link.name.toUpperCase()}
+
+
+
+  
